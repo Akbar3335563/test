@@ -1,0 +1,362 @@
+<!--
+    HTML-hyper text markup language 
+    tag - <p> 
+
+FRONT-END
+    html - наполнять сайт контентом
+    css - придовать стиль сайтам
+    js - анимации
+
+BACK-END
+    JAVA 
+    PYTHON
+    PHP
+    GO
+    
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>Комиксы</title>
+
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/originals/24/c8/a6/24c8a632ee333496358d90e2444f7fd5.jpg);
+           color: white;
+        }
+      h1,h2,h3{
+        font-size: 56px;
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.403);
+        color:brown;
+      }
+    </style>
+</head>
+<body>
+<center>
+   <div style="  background-color: rgba(0, 0, 0, 0.85);width: 70%;">
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-image: url();">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="#">
+                 <img src="http://24.media.tumblr.com/c02faf5610752ab14459b8ba60136a56/tumblr_mjgeuytiGO1rkfq7so1_500.gif" height="50px"alt="">
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="index.html">главное</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#"></a>
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Комиксы
+                   </a>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="#">Магазин</a></li>
+                     <li><a class="dropdown-item" href="category.html">Категорий</a></li>
+                     <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="#">Доставки</a></li>
+                   </ul>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="contact.html" >Контакты</a>
+                 </li>
+               </ul>
+               <form class="d-flex">
+                 <input class="form-control me-2" type="поиск" placeholder="поиск" aria-label="поиск">
+                 <button class="btn btn-outline-success" type="submit"></button>Поиск</button>
+               </form>
+             </div>
+           </div>
+         </nav>
+       <H1>Магазин комиксов</H1>
+         <style>
+
+            .shop{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              align-items: stretch;
+              align-content: space-between;
+          }
+          .block {
+            padding: 3% 1%;
+    
+          }
+          .block {
+            width: 200px;
+            height: 300px;
+            margin: 1%;
+            margin-bottom: 10%;
+          }
+          .block img {
+            width: 200px;
+            height: 300px;
+            padding-bottom: 10%;
+          }
+          .block a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+          }
+          .price {
+            color: rgb(179, 24, 24);
+          }
+          </style>
+          
+          <div class="shop">
+          
+          
+          
+            <div class="block">
+              <a href="">
+                <div>
+                    <img src="https://cosmic.com.ua/images/49/kapitan_amerika_tom_1_zima_v_ameritsi-23930317341294_small4.jpg" alt="">
+                    <div>
+                      <span >
+                        Капітан Америка. Том 1. Зима в Америці
+                      </span>
+                      <br>
+                      <span class="price">
+                        2200тг
+                      </span>
+                    </div>
+                 
+                </div>
+              </a>
+            </div>
+            <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://cosmic.com.ua/images/16/avengers_41-45968628807653_small4.jpg" alt="">
+                      <div>
+                        <span >
+                            Avengers #41
+                        </span>
+                        <br>
+                        <span class="price">
+
+            2200тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://geekster.ru/wp-content/uploads/2015/12/9e4bDJtAcO8_1_.jpg" alt="">
+                      <div>
+                        <span >
+                            Лунный Рыцарь. с Мертвых
+                        </span>
+                        <br>
+                        <span class="price">
+
+            2200тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://cosmic.com.ua/images/47/doktor_dum_tom_1_pottersvill-16300061051274_small4.jpg" alt="">
+                      <div>
+                        <span >
+                            Доктор Дум. Том 1. Поттерсвилль 
+                        </span>
+                        <br>
+                        <span class="price">
+
+            3500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://i5.walmartimages.com/asr/4e634f5c-017a-4e93-ae4a-f749ebbc367c.35ebc0a517ee1c005e8a06dfa3ada90b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="">
+                      <div>
+                        <span >
+Marvel Fantastic Four Antithesis #3 of 4
+                        </span>
+                        <br>
+                        <span class="price">
+
+            3500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Hunt_for_Wolverine_1.jpg/250px-Hunt_for_Wolverine_1.jpg" alt="">
+                      <div>
+                        <span >
+                          Cover art for Hunt for Wolverine #1
+                        </span>
+                        <br>
+                        <span class="price">
+
+            3500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://cdn.shopify.com/s/files/1/0882/5118/products/Marvel-Comics-Infinity-War-Graphic-Novel-0387111_1024x1024.jpg?v=1532361891" alt="">
+                      <div>
+                        <span >
+                            Infinity War Graphic Novel
+                        </span>
+                        <br>
+                        <span class="price">
+
+           4000тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/a/a8/Iron_Man_128.jpg/263px-Iron_Man_128.jpg" alt="">
+                      <div>
+                        <span >
+                          The Invincible Iron Man #128
+                        </span>
+                        <br>
+                        <span class="price">
+
+           4000тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/a/ac/Amazing_Spider-Man_294.jpg/259px-Amazing_Spider-Man_294.jpg" alt="">
+                      <div>
+                        <span >
+                          The Amazing Spider-Man Last Hunt #294
+                        </span>
+                        <br>
+                        <span class="price">
+
+           4000тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://i.annihil.us/u/prod/marvel/i/mg/3/a0/607717f1d97a1/clean.jpg" alt="">
+                      <div>
+                        <span >
+                      Carnage: Black, White & Blood (2021) #2
+                        </span>
+                        <br>
+                        <span class="price">
+                   4500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://i.annihil.us/u/prod/marvel/i/mg/3/d0/607717d63e2e7/portrait_uncanny.jpg" alt="">
+                      <div>
+                        <span >
+                     
+S.W.O.R.D. (2020) #5
+                        </span>
+                        <br>
+                        <span class="price">
+                   4500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://i.annihil.us/u/prod/marvel/i/mg/5/40/515f1c002c52b/clean.jpg" alt="">
+                      <div>
+                        <span >
+                     
+Avengers Vs. X-Men (2012) #9
+                        </span>
+                        <br>
+                        <span class="price">
+                   4500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class="block">
+                <a href="">
+                  <div>
+                      <img src="https://i.annihil.us/u/prod/marvel/i/mg/4/00/58335d943f43f/clean.jpg" alt="">
+                      <div>
+                        <span >
+
+                          Spider-Man (1990) #23
+                        </span>
+                        <br>
+                        <span class="price">
+                   4500тг
+                        </span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+
+
+
+
+
+
+          
+          
+          </div>
+         <footer style="background-color:black;height: 200px;">
+           My instagram:Kwizl447
+         </footer>
+
+   </div>
+
+</center>
+  
+
+
+</body>
+</html>
